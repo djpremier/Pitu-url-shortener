@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-    <a href="https://insomnia.rest/run/?label=Pitu%20-%20URL%20Shortener&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdjpremier%2Fpitu-url-shortener%2Fmain%2Finsomnia.md" target="_blank">
+    <a href="https://insomnia.rest/run/?label=Pitu%20-%20URL%20Shortener&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdjpremier%2Fpitu-url-shortener%2Fmain%2Finsomnia.json" target="_blank">
         <img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia">
     </a>
 </p>
@@ -28,7 +28,7 @@
 <p>
 
 ## :rocket: Deploy na AWS
-#####:TODO:
+####http://www.pitushortener.tk/
 
 ## :bookmark: Sobre o Projeto
 
