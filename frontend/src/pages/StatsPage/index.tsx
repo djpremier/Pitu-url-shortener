@@ -10,6 +10,7 @@ import ShortenerService, { ILink } from "../../services/shortenerService";
 import { StatsRow, StatsBox, StatsBoxTitle } from "./styles";
 import { BlockContainer } from "../../styles/global";
 import { FC, useEffect, useState } from "react";
+import vars from "../../configs/vars";
 
 type TParams = {
   code: string;
@@ -65,7 +66,7 @@ const StatsPage: FC<RouteComponentProps<TParams>> = ({ match }) => {
       ) : (
           <BlockContainer className="text-center">
             <p>
-              <b>http://localhost:3000/{shortenedURL.code}</b>
+              <b>{vars.HOST_APP + shortenedURL.code}</b>
             </p>
             <p>
               Redireciona para:

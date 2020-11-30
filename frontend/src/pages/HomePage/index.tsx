@@ -10,6 +10,7 @@ import {
 import Header from "../../components/Header";
 import { ContentContainer, Form } from "./styles";
 import ShortenerService from "../../services/shortenerService";
+import vars from "../../configs/vars";
 
 const HomePage: FC = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -81,7 +82,7 @@ const HomePage: FC = () => {
                   <InputGroup className="mb-3">
                     <FormControl
                       autoFocus={true}
-                      defaultValue={`http://localhost:3000/${code}`}
+                      defaultValue={`${vars.HOST_APP + code}`}
                       ref={inputURL}
                       type="url"
                     />
@@ -96,7 +97,7 @@ const HomePage: FC = () => {
                   </InputGroup>
                   <p>
                     Para acompanhar as estatíticas, acesse{" "}
-                    <strong>http://localhost:3000/{code}/stats</strong>
+                    <strong>{vars.HOST_APP + code}/stats</strong>
                   </p>
                 </>
               )

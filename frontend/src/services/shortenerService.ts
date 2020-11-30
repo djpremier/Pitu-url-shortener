@@ -1,6 +1,7 @@
+import vars from "../configs/vars";
 import baseAPI from "./api";
 
-const api = baseAPI("http://localhost:3333");
+const api = baseAPI(vars.API_BASE);
 
 export interface ILink {
   id: string;
